@@ -13,14 +13,15 @@ html, body{
 }
 
 body{
-    background: url('../imagens/fundo-madeira.jpg')  top center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main{
     height: 100vh;
     position: relative;
-    background-color: chartreuse;
+    
 }
 
 section#telefone{
@@ -36,3 +37,23 @@ section#telefone{
     
 }
 
+iframe#tela{
+    position: relative;
+    width: 269px;
+    height: 471px;
+
+    top: 80px;
+    left: 22px;
+}
+
+section#redes-sociais{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-30%, -15%);
+
+    background-color: violet;
+
+    height: 300px;
+    width: 100px;
+}
